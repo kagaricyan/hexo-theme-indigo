@@ -1,9 +1,12 @@
 <blockquote class="post-copyright">
+    <% function template(message) {
+        return new Function('data', 'with(data){return `' + message+'`}')
+    }%>
     <% if(theme.postMessage || theme.show_last_updated) { %>
     <div class="content">
         <%- partial('updated') %>
         <% if(theme.postMessage) {%>
-        <%- _.template(theme.postMessage)(locals) %>
+        <%- template(theme.postMessage)(locals) %>
         <% } %>
     </div>
     <% } %>
