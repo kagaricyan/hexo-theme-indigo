@@ -1,5 +1,6 @@
-hexo-theme-material-indigo
-================
+# hexo-theme-material-indigo    
+> 基于原项目card风格修改，仅适配 hexo 7，没有新增、修改任何原有功能
+
 
 [![Join the chat at https://gitter.im/hexo-theme-indigo/Lobby](https://badges.gitter.im/hexo-theme-indigo/Lobby.svg)](https://gitter.im/hexo-theme-indigo/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
